@@ -300,7 +300,7 @@ Explicando o algoritmo acima passo a passo!
 5. No print estamos monstrando na tela do usuário o resultado da soma de dois números
 
 ## Contribuir
-Caso você tenha interesse, faça um fork do projeto e ajude-nos a matermos esse guia para iniciantes
+Caso você tenha interesse, faça um fork do projeto e ajude-nos a mater esse guia para iniciantes
 
 ## Autor
 [Alexandre dos Santos Soares](https://github.com/alexandrejuk)
