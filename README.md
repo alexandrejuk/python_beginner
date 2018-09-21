@@ -2,21 +2,6 @@
 
 Estes conteúdo é baseado nas aulas dos professores, [Andrey Masiero](https://github.com/amasiero) e [Fabio Versolatto](https://www.linkedin.com/in/fabio-versolatto-a9740ba4/?originalSubdomain=br).
 
-## Tabela de Conteúdos
-
-- [Requerido](#Requerido)
-- [Tipos Primitivos](#Primitivos)
-- [Declaração de Varíaveis](#Declaração)
-- [Criando Funções](#Funções)
-- [Operadores](#Operadores)
-	 - [Aritmeticos](#Aritmeticos)
-   - [Lógicos](#Lógicos)
-- [Estrutura Condicional](#Condicional)
-   - [Simples](#Simples)
-   - [Composta](#Composta)
-- [Contruibuir](#Contribuir)
-- [Autor](#Autor)
-
 ## Requerido
 Para executar os exemplos utilizados neste repositório você precisa ter o **Python** instalado localmente na sua maquína ou você pode executa-los através do site: [repl.it](https://repl.it)
 
