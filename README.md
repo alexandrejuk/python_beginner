@@ -70,7 +70,7 @@ resultado = nomeCompleto
 print(nomeCompleto) # saída =  João de Oliveira
 ```
 
-# Capturando uma entrada do usuário no Python
+## Capturando uma entrada do usuário no Python
 Para capturarmos uma entrda do usuário iremos utilizar a função **input()** do **Python**, para isso iremos criar uma varíavel com o nome **entradaUsuario** e iremos atribuir a função **input()** a ela. 
 
 **Observação:** A função **input()** receber como parâmetro uma mensagem para o usuário, o retorno da função **input()** no **Python** é do tipo primitivo **STRING**, então caso queira fazer a captura de um valor número é necessário fazer um conversão para o tipo **INTEIRO ou FLOAT**, mas não se preocupe iremos tratar disto logo à frente.
