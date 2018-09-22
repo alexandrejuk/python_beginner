@@ -322,21 +322,30 @@ Nesse primeiro momento estamos criando uma varíavel chamada **contador** que ir
 ```python
 contador = 0
 while contador != 100:
-  contador += 1
   print(contador)
+  contador += 1
 ```
 Nesse primeiro momento estamos criando uma varíavel chamada **contador** que irá informar para o nosso **while**, quando ele deve começar a contar, dentro da implementação do **while** colocamos o operador de comparação **!=**, que nesse caso estão dizendo para o **while**, enquanto o meu contador for **diferente** de **100** mostra ele na tela, e o restante é igual a outra implementação.
 
 
 Exemplo 2:
 
-
+Certo
 ```python
 contador = 0
 while contador <= 40:
   if contador >= 30:
     print(contador)
   contador = contador + 1
+```
+
+Errado
+```python
+contador = 0
+while contador <= 40:
+  if contador >= 30:
+    print(contador)
+    contador = contador + 1 # note que o nosso contador está identado dentro do nosso if
 ```
 Assim como no exemplo do **for** tivemos que utilizar o **if**, para mostra na tela os valores desejado para esse exemplo, 
 mas note que estamos acrescentando o contador fora do escopo do **if**, se o **contador** estivesse identando para dentro do **if** nosso código não iria funcionar
