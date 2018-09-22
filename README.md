@@ -267,6 +267,87 @@ else:
   print("Sua idade está fora da faixa etária permitida")
 ```
 
+## Laço de Repetição
+Os laços de repetição no **Python** assim como em outras linguagem são utilizado para percorrer um **Array, tuples ou Dictionary**, ou simplesmente fazer algum tipo de contagem.
+
+### for
+
+Exemplo 1:
+
+Imagine um cenário onde temos que contar de **0** até **100** podemos utilizar o for para nos auxiliar nessa contagem.
+
+```python
+for i in range(101):
+  print(i)
+
+```
+No exemplo acima utilizamos uma varíavel com o nome de **i** que será incrementada e mostrada na tela do usuário até que seu valor seja igual a **100**, Mas você deve está se perguntando por que colocamos no **range(101)**, se tivessemos colocado dentro do **range(100)**, o contado iria mostra todos os valores de **0** até **99**, mas no exemplo atual queremos que os valores fossem mostrados de **0** até **100**
+
+
+Exemplo 2:
+
+Imagine um cenário onde temos que listar os numero de **30** até **40** podemos utilizar o **range**, do **for** para passa um valor de início e fim da contagem. Mas caso queira complicar um pouquinho podemos fazer esse mesmo exemplo  sem passar o início, neste exemplo iremos mostrar das duas formas.
+
+
+Sem passar o início e o fim
+```python
+for i in range(101):
+  if i >= 30 and i <= 40:
+    print(i)
+```
+Essa é uma solução que poderia ser considerada, mas teriamos que aumentar o grau de complexidade do nosso **for** utilizando o **if**
+
+Passando o início e o fim
+```python
+for i in range(30, 41):
+  print(i)
+```
+Essa segunda solução temos o mesmo resultado da primeira só que de uma forma mais limpa de simples de entender.
+
+### while
+Enquanto o laço de repetição **for**, faz a contagem de acordo com o que está definido no seu **range** o **while** é um pouquinho diferente mas nada muito complicado, utilizaremos os mesmo exemplos do for para que você possa entender que os dois podem resolver os mesmo tipos de problemas, mas com abordagens diferentes.
+
+Exemplo 1:
+
+Imagine um cenário onde temos que contar de **0** até **100** podemos utilizar o for para nos auxiliar nessa contagem.
+
+```python
+contador = 0
+while contador < 100:
+  print(contador)
+  contador = countador + 1
+```
+Nesse primeiro momento estamos criando uma varíavel chamada **contador** que irá informar para o nosso **while**, quando ele deve começar a contar, dentro da implementação do **while** colocamos o operador de comparação **<**, que nesse caso estão dizendo para o **while**, enquanto o meu contador for **menor** que **100** mostra ele na tela, e por último depois que o valor e mostrado na tela estamos acrescentando o  valor **1** ao **contador**, por isso a soma dos valores estão depois do **print**.
+
+```python
+contador = 0
+while contador != 100:
+  contador += 1
+  print(contador)
+```
+Nesse primeiro momento estamos criando uma varíavel chamada **contador** que irá informar para o nosso **while**, quando ele deve começar a contar, dentro da implementação do **while** colocamos o operador de comparação **!=**, que nesse caso estão dizendo para o **while**, enquanto o meu contador for **diferente** de **100** mostra ele na tela, e o restante é igual a outra implementação.
+
+
+Exemplo 2:
+
+
+```python
+contador = 0
+while contador <= 40:
+  if contador >= 30:
+    print(contador)
+  contador = contador + 1
+```
+Assim como no exemplo do **for** tivemos que utilizar o **if**, para mostra na tela os valores desejado para esse exemplo, 
+mas note que estamos acrescentando o contador fora do escopo do **if**, se o **contador** estivesse identando para dentro do **if** nosso código não iria funcionar
+
+```python
+contador = 30
+while contador <= 40:
+  print(contador)
+  contador = contador + 1
+```
+Mas como tudo é lindo e maravilhoso no **Python** podemos simplesmente iniciar nosso **contador** com um determinado valor de dizer quando ele deve parar.
 
 ## O que é Algoritmo?
 Algoritmo é o conjunto das regras e procedimentos lógicos perfeitamente definidos que levam à solução de um problema em um número finito de etapas.
